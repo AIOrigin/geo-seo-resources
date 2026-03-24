@@ -1,0 +1,29 @@
+name: Docs CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Lint Markdown
+        run: npx markdownlint-cli2 "**/*.md"
+
+      - name: Validate JSON samples
+        run: python3 -m json.tool reports/reference-geo-audit-sample.json > /dev/null
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .github/lychee.toml "./README*.md" "./docs/**/*.md" "./examples/**/*.md" "./reports/**/*.md" "./Code.md" "./agent.md"

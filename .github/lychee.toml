@@ -1,0 +1,5 @@
+verbose = true
+no_progress = true
+exclude = [
+  "^https://github.com/.+/actions/workflows/ci\\.yml/badge\\.svg.*$"
+]

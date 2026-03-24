@@ -1,0 +1,20 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sp-title sp-desc">
+  <title id="sp-title">GEO SEO Resources</title>
+  <desc id="sp-desc">Reusable SEO and GEO skills library. Navy panel with teal route-graph motif for repository and social preview.</desc>
+  <rect width="1280" height="640" rx="32" fill="#0F172A"/>
+  <rect x="56" y="56" width="1168" height="528" rx="28" fill="#173B6D"/>
+  <circle cx="922" cy="320" r="150" stroke="#F7FAFC" stroke-width="18" opacity="0.12"/>
+  <path d="M812 392C844 363 874 335 906 307C938 278 971 249 1015 212" stroke="#1AA3A8" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M861 438C893 409 922 381 955 353C991 322 1029 292 1072 256" stroke="#63D5D7" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <circle cx="811" cy="393" r="30" fill="#F7FAFC"/>
+  <circle cx="811" cy="393" r="15" fill="#1AA3A8"/>
+  <circle cx="905" cy="307" r="26" fill="#F7FAFC"/>
+  <circle cx="905" cy="307" r="13" fill="#173B6D"/>
+  <circle cx="1016" cy="212" r="34" fill="#F7FAFC"/>
+  <circle cx="1016" cy="212" r="16" fill="#1AA3A8"/>
+  <path d="M1036 426C1076 426 1109 393 1109 353" stroke="#F7FAFC" stroke-width="18" stroke-linecap="round" opacity="0.8"/>
+  <path d="M1061 474C1125 474 1176 423 1176 359" stroke="#1AA3A8" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+  <text x="120" y="240" fill="#F7FAFC" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700">GEO SEO Resources</text>
+  <text x="120" y="306" fill="#63D5D7" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600">Reusable SEO / GEO Skills Library</text>
+  <text x="120" y="384" fill="#D9E3F0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400">Workflows, route clusters, audits, tracking, reference-site analysis</text>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "site": "https://www.example.org",
+  "positioning": "illustrative third-party reference documentation site",
+  "llms": {
+    "exists": true,
+    "formatValid": true,
+    "sectionCount": 9,
+    "linkCount": 57
+  },
+  "citability": {
+    "guideOverview": {
+      "url": "https://www.example.org/guides/product-overview",
+      "averageScore": 40.6,
+      "totalBlocksAnalyzed": 14
+    },
+    "advancedPromptTechniques": {
+      "url": "https://www.example.org/prompt-templates/advanced-prompt-tips",
+      "averageScore": 34.0,
+      "totalBlocksAnalyzed": 7
+    }
+  },
+  "recommendedRoutes": [
+    "https://www.example.org/guides",
+    "https://www.example.org/prompt-templates",
+    "https://www.example.org/guides/product-overview",
+    "https://www.example.org/prompt-templates/advanced-prompt-tips",
+    "https://www.example.org/site-guide"
+  ],
+  "notes": [
+    "The sample site already exposes a useful llms.txt for AI-readable discovery.",
+    "Prompt-template pages are structurally promising but currently less citable than the overview guide.",
+    "This sample is public-safe and intentionally excludes private analytics."
+  ]
+}
